@@ -1,0 +1,477 @@
+*{
+    margin: 0; padding: 0;
+    font-family:CaviarDreams ;
+}
+@font-face{
+    font-family:CaviarDreams ;
+    src: url('../caviar_dreams/CaviarDreams.ttf');
+}
+
+.navigation{
+ 
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+     justify-content: center;
+}
+.navigation h2{
+    color: #a96c59;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+letter-spacing: 2px;
+}
+.navigation a{
+   margin:0 20px 0 20px;
+ position: relative;
+ font-size: 20px;
+ color: black;
+    text-decoration: none;
+
+
+}
+.navigation a:hover{
+    color: #a96c59;
+}
+.navigation h1{
+ font-size: 19rem;
+position: absolute;
+margin-bottom: -9rem;
+ color: #f3eae8;
+
+ }
+
+ .footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+  
+    background-color: #a96c59;
+
+    justify-content: center;
+
+ }
+ .footer-text{
+     width: 65%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+  
+     height: 60vh;
+ }
+ .footer-text h3{
+     font-size: 60px;
+     font-weight: lighter;
+     color: white;
+     margin-left: 100px;
+     letter-spacing: 2px;
+     
+
+ }
+ .footer-text p{
+    font-size: 27px;
+    font-weight: lighter;
+  margin: 10px 0 10px 100px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.footer-text input{
+    width: 90px;
+    height: 6vh;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.footer-text input:hover{
+    background-color: #f3eae8;
+    color: #a96c59;
+    cursor: pointer;
+}
+.footer-text input:active{
+    transform: translateY(2px);
+    
+}
+ .footer-img{
+    width: 35%;
+    overflow: hidden;
+    height: 60vh;
+}
+.footer-img img{
+    width: 32rem;
+   margin-top: -12rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for small mobile */
+@media only screen and (min-width: 260px) and (max-width: 400px){
+    body{
+        width: 100%;
+     height: auto;;
+    }
+    .navigation{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+    .navigation a{
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 !important;
+        margin: 0 10px 0 10px !important;
+    }
+    .navigation h2{
+        font-weight: bold;
+    }
+    .footer{
+        width: 100%;
+        height: 70vh;
+        display: flex !important;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-img{
+        width: 100% !important;
+    }
+    .footer-img img{
+        width: 100%;
+        margin: 0 !important;
+        margin-top: -9rem !important;
+    }
+    .footer-text{
+        width: 100%;
+        align-items: center;
+        
+    }
+    .footer-text h3{
+        font-size: 25px;
+        margin: 0!important;
+    }
+    .footer-text p{
+        font-size: 12px !important;
+        width: 50%;
+        margin: 0!important;
+        text-align: center;
+        margin: 12px 0 12px 0 !important;
+    }
+    .footer-text input{
+        font-size: 10px;
+        width: 70px;
+        height: 5vh;
+        margin: 0!important;
+    }
+
+    h1{
+        font-size: 6rem !important;
+        transform:rotate(90deg);
+       margin: 0 !important;
+        position: absolute;
+        margin-bottom: -15rem!important;
+        left: -10rem;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    body{
+        width: 100%;
+     height: auto;;
+    }
+    .navigation{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+    .navigation a{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 !important;
+        margin: 0 10px 0 10px !important;
+    }
+    .navigation h2{
+        font-weight: bold;
+    }
+    .footer{
+        width: 100%;
+        height: 70vh;
+        display: flex !important;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-img{
+        width: 100% !important;
+    }
+    .footer-img img{
+        width: 100%;
+        margin: 0 !important;
+        margin-top: -15rem !important;
+    }
+    .footer-text{
+        width: 100%;
+        align-items: center;
+        
+    }
+    .footer-text h3{
+        font-size: 35px;
+        margin: 0!important;
+    }
+    .footer-text p{
+        font-size: 15px !important;
+        width: 50%;
+        margin: 0!important;
+        text-align: center;
+        margin: 12px 0 12px 0 !important;
+    }
+    .footer-text input{
+        font-size: 10px;
+        width: 90px;
+        height: 6vh;
+        margin: 0!important;
+    }
+
+    h1{
+        font-size: 5.7rem !important;
+        opacity: 80%;
+       margin: 0 !important;
+        position: absolute;
+        margin-bottom: -7rem!important;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for small tab */
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    body{
+        width: 100%;
+     height: auto;;
+    }
+    .navigation{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+    .navigation a{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 !important;
+        margin: 0 10px 0 10px !important;
+    }
+    .navigation h2{
+        font-weight: bold;
+    }
+    .footer{
+        width: 100%;
+        height: 70vh;
+        display: flex !important;
+        align-items: center;
+        
+    }
+    .footer-img{
+        width: 40% !important;
+        height: 70vh !important;
+    }
+    .footer-img img{
+        width: 26rem;
+        margin: 0 !important;
+        margin-top: -5rem!important;
+      
+   
+    
+    }
+    .footer-text{
+        width: 60%;
+        height: 70vh !important;
+     
+      
+     
+    }
+    .footer-text h3{
+        font-size: 45px;
+        margin: 0 !important;
+        letter-spacing: .5px !important;
+        margin-left: 50px !important;
+    
+    }
+    .footer-text p{
+        font-size: 17px !important;
+        width: 100%;
+        margin: 0 !important;
+        margin: 10px 0 10px 50px !important;
+    
+        
+
+    }
+    .footer-text input{
+        font-size: 10px;
+        width: 90px;
+        height: 6vh;
+        margin: 0 !important;
+        margin: 10px 0 10px 50px !important;
+   
+    }
+
+    h1{
+        font-size: 8.4rem !important;
+        opacity: 80%;
+       margin: 0 !important;
+        position: absolute;
+        margin-bottom:-6rem !important;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for tab */
+@media only screen and (min-width: 800px) and (max-width: 1030px){
+    body{
+        width: 100%;
+     height: auto;;
+    }
+    .navigation{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+    .navigation a{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 !important;
+        margin: 0 10px 0 10px !important;
+    }
+    .navigation h2{
+        font-weight: bold;
+    }
+    .footer{
+        width: 100%;
+        height: 70vh;
+        display: flex !important;
+        align-items: center;
+        
+    }
+    .footer-img{
+        width: 40% !important;
+        height: 70vh !important;
+    }
+    .footer-img img{
+        width: 26rem;
+        margin: 0 !important;
+        margin-top: -5rem!important;
+      
+   
+    
+    }
+    .footer-text{
+        width: 60%;
+        height: 70vh !important;
+     
+      
+     
+    }
+    .footer-text h3{
+        font-size: 45px;
+        margin: 0 !important;
+        letter-spacing: .5px !important;
+        margin-left: 50px !important;
+    
+    }
+    .footer-text p{
+        font-size: 17px !important;
+        width: 100%;
+        margin: 0 !important;
+        margin: 10px 0 10px 50px !important;
+    
+        
+
+    }
+    .footer-text input{
+        font-size: 10px;
+        width: 90px;
+        height: 6vh;
+        margin: 0 !important;
+        margin: 10px 0 10px 50px !important;
+   
+    }
+
+    h1{
+        font-size: 11.3rem !important;
+        opacity: 80%;
+       margin: 0 !important;
+        position: absolute;
+        margin-bottom:-6rem !important;
+        
+        
+    }
+}
