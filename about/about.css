@@ -324,11 +324,14 @@ color: #f3eae8;
     .navigation{
         width: 100%;
         height: 30vh;
+        background-color: lightgreen;
         overflow: hidden;
     }
     .navigation a{
         font-size: 15px;
         font-weight: bold;
+        position: relative;
+        background-color: red;
         margin: 0 !important;
         margin: 0 10px 0 10px !important;
     }
@@ -340,6 +343,7 @@ color: #f3eae8;
         height: 70vh;
         display: flex !important;
         align-items: center;
+        position: relative;
         
     }
     .footer-img{
@@ -356,6 +360,7 @@ color: #f3eae8;
     }
     .footer-text{
         width: 60%;
+        position: relative;
         height: 70vh !important;
      
       
@@ -386,12 +391,14 @@ color: #f3eae8;
    
     }
 
-    h1{
+    .footer h1{
         font-size: 8.4rem !important;
         opacity: 80%;
        margin: 0 !important;
+       
         position: absolute;
-        margin-bottom:-6rem !important;
+        bottom: 0 !important;
+        margin-bottom: -5rem;
         
         
     }
